@@ -13,6 +13,7 @@ export class EditAlbumComponent implements OnInit {
   constructor(private albumService: AlbumService) { }
 
   ngOnInit() {
+    
   }
 
   beginUpdatingAlbum(albumToUpdate){
