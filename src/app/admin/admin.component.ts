@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { AdminService } from '../album.service';
+import { AlbumService } from '../album.service';
 import { Album } from '../album.model';
 
 @Component({
@@ -8,7 +8,7 @@ import { Album } from '../album.model';
   styleUrls: ['./admin.component.css'],
   providers: [AlbumService]
 })
-export class AdminComponent implements OnInit {
+export class AdminComponent{
 
   constructor(private albumService: AlbumService) { }
 
