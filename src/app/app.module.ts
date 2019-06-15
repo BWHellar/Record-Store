@@ -13,6 +13,7 @@ import { AlbumDetailComponent } from './album-detail/album-detail.component';
 
 import { routing } from './app.routing';
 import { masterFirebaseConfig } from './api-keys';
+import { AdminComponent } from './admin/admin.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -27,7 +28,8 @@ export const firebaseConfig = {
     WelcomeComponent,
     AboutComponent,
     MarketplaceComponent,
-    AlbumDetailComponent
+    AlbumDetailComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
