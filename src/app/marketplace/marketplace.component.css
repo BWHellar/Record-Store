@@ -19,3 +19,7 @@ h1 {
 h3 {
   overflow-wrap: normal;
 }
+
+img {
+  box-shadow: 2px 2px 6px 10px rgba(0, 0, 0, 0.3);
+}
