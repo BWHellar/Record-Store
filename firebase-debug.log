@@ -41,3 +41,18 @@ You're about to initialize a Firebase project in this directory:
 [info] will contain Hosting assets to be uploaded with firebase deploy. If you
 [info] have a build process for your assets, use your build's output directory.
 [info] 
+[debug] [2019-06-17T16:36:54.473Z] Error: write EIO
+    at WriteWrap.afterWrite [as oncomplete] (net.js:779:14)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2019-06-17T16:36:54.483Z] TypeError: Cannot read property 'setRawMode' of null
+    at ReadStream.setRawMode (tty.js:66:28)
+    at Interface._setRawMode (readline.js:251:16)
+    at Interface.close (readline.js:376:10)
+    at ReadStream.ontermend (readline.js:164:10)
+    at ReadStream.emit (events.js:194:15)
+    at ReadStream.EventEmitter.emit (domain.js:441:20)
+    at endReadableNT (_stream_readable.js:1125:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+[error] 
+[error] Error: An unexpected error has occurred.

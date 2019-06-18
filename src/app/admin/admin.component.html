@@ -17,9 +17,9 @@
       </div>
 
       <div>
-        <label>Album Songs:</label>
+        <label>Input Image Link:</label>
         <br>
-        <textarea #newSongs></textarea>
+        <textarea #newImage></textarea>
       </div>
 
       <div>
@@ -27,7 +27,7 @@
         <br>
         <textarea #newDescription></textarea>
       </div>
-      <button (click)="submitForm(newTitle.value, newArtist.value, newSongs.value,  newDescription.value); newTitle.value=''; newArtist.value=''; newSongs.value=''; newDescription.value=''">Add</button>
+      <button (click)="submitForm(newTitle.value, newArtist.value, newImage.value,  newDescription.value); newTitle.value=''; newArtist.value=''; newImage.value=''; newDescription.value=''">Add</button>
     </div>
   </div>
 </div>

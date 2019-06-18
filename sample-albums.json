@@ -1,19 +1,19 @@
 { "albums": [{
     "title": " The Night Is Young",
     "artist": "The 2 Bears",
-    "songs": "Get Out, Angel (Touch Me), Money Man, Not This Time, See You, Son Of The Sun, Unbuild It, Modern Family, Mary Mary, Run Run Run, My Queen, The Night Is Young, Silence, Hidden Track",
+    "image": "http://dis.resized.images.s3.amazonaws.com/540x540/98045.jpeg",
     "description": "Raf Rundell and Joe Goddard return with more four-to-the-floor fun, this time seemingly aimed at thirtysomethings coming to terms with their lost youth.",
     "id": "1"
     }, {
     "title": "The Lions Roar",
     "artist": "First Aid Kit",
-    "songs": "The Lion's Roar, Emmylou, In The Hearts Of Men, Blue, This Old Routine, To A Poet, I Found A Way, Dance To Another Tune, New Year's Eve, King Of The World",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/71VxBgZJRxL._SY355_.jpg",
     "description": "With its soaring flutes and layered harmonies, \"The Lion's Roar\" conjures the pastoral, almost Andean sound of Fleet Foxes' \"Your Protector.\" Stomping drums and a strummed acoustic guitar bring welcome fire to the mix. However, it's the Söderberg sisters' soulful vocal harmonies — especially during a short but haunting a cappella interlude — that set First Aid Kit apart.",
     "id": "2"
       }, {
     "title": "Since I Left You",
     "artist": "The Avalanches",
-    "songs": "Since I Left You, Stay Another Season, Radio, Two Hearts In 3/4 Time, Avalanche Rock, Flight Tonight, Close To You, Diners Only, A Different Feeling, Electricity, Tonight May Have To Last Me All My Life, Pablo's Cruise, Frontier Psychiatrist, Etoh, Summer Crane, Little Journey, Live At Dominoes, Extra Kings",
+    "image": "https://img.discogs.com/_dCy0E7SBYkjDxSMLS7tiLKDt4Y=/fit-in/600x527/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-132062-1165699280.jpeg.jpg",
     "description": "Much of the beauty of the opening title song and its accompanying track, \"Stay Another Season,\" lies in the way that the Avalanches turn obvious sonic mismatches into something all their own. It's not too common that you'll hear a sample of a horse, a rastafarian singer, and an invitation to a Club Med disco all in the same song, but somehow it makes perfect sense under the masterful direction of the Avalanches.",
     "id": "3"
   }]

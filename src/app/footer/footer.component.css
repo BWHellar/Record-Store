@@ -1,0 +1,10 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  right: 1px;
+  border-left: 6px solid red;
+  background-color: lightgrey;
+}
+.text-muted {
+    text-decoration: none;
+}

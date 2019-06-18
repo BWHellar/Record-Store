@@ -26,7 +26,7 @@ export class AlbumService {
     var albumEntryInFirebase = this.getAlbumById(localUpdatedAlbum.$key);
     albumEntryInFirebase.update({title: localUpdatedAlbum.title,
                                 artist: localUpdatedAlbum.artist,
-                                songs: localUpdatedAlbum.songs,
+                                image: localUpdatedAlbum.image,
                                 description: localUpdatedAlbum.description});
   }
 
