@@ -1,18 +1,21 @@
-.col {
+.grid {
   display: grid;
-  float: left;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  align-content: center;
-  margin: 10px;
-
+  grid-template-columns: repeat(auto-fill, 450px);
+  grid-auto-rows: 1fr;
+  justify-content: center;
+  grid-gap: 15px;
 }
 .item {
   border: 1px solid #ccc;
   box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
   text-align: center;
   border-radius: 5px;
+  width: 450px;
   background-color: #71b89f;
 }
 h1 {
   text-align: center;
+}
+h3 {
+  overflow-wrap: normal;
 }
