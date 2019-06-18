@@ -1,9 +1,14 @@
 .footer {
   position: fixed;
   bottom: 0;
-  right: 1px;
+  right: 2px;
   border-left: 6px solid red;
   background-color: lightgrey;
+  writing-mode: tb-rl;
+  height: 6em;
+  color: #852c98;
+  transform-origin: left top 0;
+  text-orientation: upright;
 }
 .text-muted {
     text-decoration: none;

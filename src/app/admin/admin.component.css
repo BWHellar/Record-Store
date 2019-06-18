@@ -103,6 +103,8 @@ body {
   padding: .5em 1em;
   color: #fff;
   border-radius: 3px;
+  float: right;
+  position: relative;
 }
 
 .btn:hover,
@@ -122,4 +124,17 @@ body {
   width: 500px;
   height: 100%;
   text-align: center;
+}
+
+#introDesc {
+  margin: 1px;
+  padding: 1px;
+  width: 300px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: none;
+    width: 300px;
 }

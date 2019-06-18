@@ -27,13 +27,13 @@
           <div>
             <label>Input Image Link:</label>
             <br>
-            <textarea #newImage></textarea>
+            <textarea id="introImage" #newImage></textarea>
           </div>
 
           <div>
             <label>Album Description:</label>
             <br>
-            <textarea #newDescription></textarea>
+            <textarea id="introDesc" #newDescription></textarea>
           </div>
           <button (click)="submitForm(newTitle.value, newArtist.value, newImage.value,  newDescription.value); newTitle.value=''; newArtist.value=''; newImage.value=''; newDescription.value=''">Add</button>
         </div>

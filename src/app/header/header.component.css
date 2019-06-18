@@ -42,7 +42,6 @@
   left: 0;
   width: 10%;
   margin: auto;
-
   background: #fff;
   border-radius: 5px;
   padding: 1em 2em;
@@ -86,9 +85,10 @@ p {
 }
 
 body {
-  padding: 1%;
+
   font: 1/1.5em sans-serif;
-  text-align: center;
+  background-color: #da9f8c;
+  border-radius: 10px;
 }
 
 .btn {

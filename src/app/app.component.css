@@ -1,3 +1,5 @@
 .centerStuff {
-  align-items: center;
+  background-image: url("./pictures/Background.jpg");
+  background-size: cover;
+
 }
