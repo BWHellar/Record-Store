@@ -1,36 +1,47 @@
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Add New Album to Inventory</h3>
-  </div>
-  <div class="panel-body">
-    <div>
-      <div>
-        <label>Album Title:</label>
-        <br>
-        <input #newTitle>
-      </div>
 
-      <div>
-        <label>Album Artist:</label>
-        <br>
-        <input #newArtist>
-      </div>
+<label class="btn" for="modale-1">&#43;</label>
 
-      <div>
-        <label>Input Image Link:</label>
-        <br>
-        <textarea #newImage></textarea>
+<input class="modale-state" id="modale-1" type="checkbox" />
+<div class="modale">
+  <label class="modale__bg" for="modale-1"></label>
+  <div class="modale__inner">
+    <label class="modale__close" for="modale-1"></label>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Add New Album to Inventory</h3>
       </div>
+      <div class="panel-body">
+        <div>
+          <div>
+            <label>Album Title:</label>
+            <br>
+            <input #newTitle>
+          </div>
 
-      <div>
-        <label>Album Description:</label>
-        <br>
-        <textarea #newDescription></textarea>
+          <div>
+            <label>Album Artist:</label>
+            <br>
+            <input #newArtist>
+          </div>
+
+          <div>
+            <label>Input Image Link:</label>
+            <br>
+            <textarea #newImage></textarea>
+          </div>
+
+          <div>
+            <label>Album Description:</label>
+            <br>
+            <textarea #newDescription></textarea>
+          </div>
+          <button (click)="submitForm(newTitle.value, newArtist.value, newImage.value,  newDescription.value); newTitle.value=''; newArtist.value=''; newImage.value=''; newDescription.value=''">Add</button>
+        </div>
       </div>
-      <button (click)="submitForm(newTitle.value, newArtist.value, newImage.value,  newDescription.value); newTitle.value=''; newArtist.value=''; newImage.value=''; newDescription.value=''">Add</button>
     </div>
   </div>
 </div>
+
 
 <div>
   <app-marketplace></app-marketplace>

@@ -77,7 +77,7 @@
   background: #aaa;
 }
 
-.modal__close:before {
+.__close:before {
   transform: rotate(-45deg);
 }
 
