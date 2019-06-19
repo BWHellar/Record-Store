@@ -7,7 +7,6 @@
         <img height="300" width="300"src="{{(album.image)}}" alt="">
       </div>
       <div *ngIf="currentRoute === '/admin'">
-        <!-- {{album.description}} -->
         <hr>
         <app-edit-album [selectedAlbum]="album"></app-edit-album>
       </div>

@@ -9,7 +9,15 @@
   resize: none;
   border-radius: 5px;
 }
-
+.wideInput2 {
+  margin: 1px;
+  padding: 1px;
+  width: 100px;
+  height: 200px;
+  resize: none;
+  border-radius: 5px;
+  text-align: center;
+}
 input {
   border-radius: 5px;
 }

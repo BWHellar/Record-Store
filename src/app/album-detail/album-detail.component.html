@@ -1,7 +1,17 @@
-<div>
-  <h3>{{(albumToDisplay | async)?.title}}</h3>
-  <h4>{{(albumToDisplay | async)?.artist}}</h4>
-  <img width="150" height="150" src="{{(albumToDisplay | async)?.image}}" alt="Album Image">
-  
-  <p>{{(albumToDisplay | async)?.description}}</p>
+<div class="wrapper">
+  <div class="box a">
+    <img  id="detailImage" width="250" height="250" src="{{(albumToDisplay | async)?.image}}" alt="Album Image">
+  </div>
+  <div class="box b">
+    <h3>{{(albumToDisplay | async)?.title}}</h3>
+    <h4>{{(albumToDisplay | async)?.artist}}</h4>
+  </div>
+  <div class="box c">
+    <h2>Songs</h2>
+    <p style="margin-bottom: 1rem;white-space: pre-line;">{{(albumToDisplay | async)?.songs}}</p>
+  </div>
+  <div class="box d">
+    <iframe width="420" height="345" src="{{(albumToDisplay | async)?.youtube}}"></iframe>
+    <p class="detailDesc" style="margin-bottom: 2rem;white-space:pre-wrap;">{{(albumToDisplay | async)?.description}}</p>
+  </div>
 </div>
